@@ -1,0 +1,25 @@
+/* CSS Document */
+
+.block{
+	margin-bottom:20px;
+	
+	
+	}
+.cookbook-content{
+	overflow:hidden;
+	border:1px dashed #5fa022;
+	}
+.cookbook-content a{
+	text-decoration:none;
+	}
+.details{
+	float:left;
+	margin-right:10px;
+	}
+.cookbook-img{
+	padding:10px;
+	}
+.cookbook-img img{
+	width:70px;
+	height:90px;
+	}

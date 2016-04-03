@@ -1,0 +1,28 @@
+/* CSS Document */
+.suggestion-content{
+	overflow:hidden;
+	}
+.suggestion-block{
+	
+	overflow:hidden;
+	padding:20px;
+	}
+.suggestion-img,.suggetion-content{
+	float:left;
+	}
+.suggestion-img img{
+	width:100px;
+	height:120px;
+	}
+.suggestion-description{
+	padding-left:20px;
+	overflow:hidden;
+	}
+	
+	
+table{
+	border-collapse:collapse;
+	}
+td{
+	border:1px dashed #5fa022;
+	}

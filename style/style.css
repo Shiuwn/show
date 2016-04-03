@@ -1,0 +1,417 @@
+/* CSS Document */
+body{
+	font-size:16px;
+	font-family:"新宋体";
+	
+}
+ul{
+
+list-style:none;}
+#main{
+width:auto;
+
+float:left;
+
+}
+#header{
+	background:#FFF;
+width:auto;
+height:auto;
+float:left;
+position:fixed;
+box-shadow: 0 1px 5px #ccc;
+left:200px;
+top:0px;
+opacity:0.8;
+filter:alpa(opacity=80);
+-moz-opacity:0.8;
+-khtml-opacity:0.8;
+z-index:999;
+}
+
+#logo{
+float:left;
+}
+#mcontent{float:left;}
+#title{
+text-align:center;
+font-size:36px;
+font-weight:300;
+font-family:"楷体_GB2312";
+}
+#menu{
+float:left;
+}
+#left{
+	width:200px;
+	position:fixed;
+	left:0px;
+	top:60px;
+	margin-top:70px;
+	box-shadow:1px 1px 10px #e2827e;
+	z-index:999;
+	}
+
+#leftinner{}
+#strategy{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #e2827e;
+	border-right-color: #e2827e;
+	border-bottom-color: #e2827e;
+	border-left-color: #e2827e;
+	border-radius:8px;
+	border-top-left-radius:0px;
+	border-bottom-left-radius:0px;
+	margin:5px;
+	margin-left:0px;
+	
+	
+	}
+.liclass img{
+	width:16px;
+	heigh:16px;
+	}
+.liclass{
+	margin:15px;
+	padding-left:20px;
+
+	padding: 6px 14px 7px;
+
+	
+;
+	border: 1px solid #5fa022;
+	}
+
+
+
+#content{
+	padding:40px;
+	margin-top:85px;
+	margin-left:200px;
+	}
+.pole,.mid,.inner{
+float:left;
+margin:20px;
+
+}
+.pole a,.mid a,.inner a{
+color: #85423f;
+padding: 6px 14px 7px;
+}
+.pole a:hover,.mid a:hover,.inner a:hover{
+color: #fff;
+background: #e2827e;
+padding: 6px 14px 7px;
+border-radius:5px;
+text-decoration:none;
+}
+#menu a{
+text-decoration:none;}
+.pole{ margin:20px;}
+
+.mid{}
+
+.inner{}
+.title{
+	color: #85423f;
+	font-size:24px;
+	width:auto;
+	height:auto;
+	margin:10px;
+	padding-top:10px;
+	}
+.title a{
+	text-decoration:none;
+	color:#85423f;
+	}
+.more{
+	color:#5fa022;
+	font-size:16px;
+	
+	}
+#leftinner .more{
+	padding-top:7px;
+	float:right;
+	}
+.list,.first,.second,.third,.fourth,.fifth{
+	color:#5fa022;
+	font-size:16px;
+	vertical-align:text-top;
+	
+	
+	}
+.liclass a{
+	text-decoration:none;
+	}
+.liclass p{
+	
+	display:none;}
+.liclass:hover{
+	color:#FFF;
+background: #e2827e;
+padding: 6px 14px 7px;
+border-radius:5px;
+text-decoration:none;
+	}
+
+#content,#innertop,#cookbook{
+	float:left;
+	}
+#icon{
+	box-shadow: 0 1px 10px #ccc;
+	border-radius:10px;
+	padding:50px;
+	}
+#icon{
+	width:516px;
+	height:auto;
+	text-align:center;
+	color:#5fa022;
+	overflow:hidden;
+	}
+.cookimg{
+	width:150px;
+	height:180px;
+	border:1px solid #5fa022;
+	}
+
+
+.cooktitle:hover{
+	color:#fff;
+	background:#5fa022;
+	border-radius:8px;
+	}
+#icon .cookdiv{
+	float:left;
+	margin:10px;
+	}
+#icon .cookdiv a{
+	text-decoration:none;
+	color:#5fa022;
+	}
+#lbutton,.lbutton{
+	background:url(../images/prevnext.png);
+	background-position:0 -31px;
+	width:32px;
+	height:30px;
+	float:right;
+	margin:5px;
+	cursor:pointer;
+	}
+#rbutton,.rbutton{
+	background:url(../images/prevnext.png);
+	background-position:-31px -31px;
+	width:32px;
+	height:30px;
+	float:right;
+	margin:5px;
+	cursor:pointer;
+	}
+#rbutton:hover,.rbutton:hover{
+	background-position:-31px 0px;
+	}
+#lbutton:hover,.lbutton:hover{
+	background-position:0px 0px;
+	}
+#icon .cinner,#icon .cinner0{
+	width:516px;
+	height:252px;
+	position:relative;
+	float:left;
+	overflow:hidden;
+	}
+#icon .cinner{
+	width:1548px;
+	height:252px;
+	
+	}
+#weekrank{
+	float:left;
+	margin-left:100px;
+	background:url(../images/calendar.fw.png);
+	background-position:-22px -15px;
+	background-repeat:no-repeat;
+	}
+#weekrank .title{
+	
+	background:#5fa022;
+	color:#FFF;
+	padding-bottom:5px;
+	border:1px solid #5fa022; 
+	text-align:center;
+	border-radius:8px;
+	width:200px;
+	margin-left:40px;
+	}
+#weekrank .title a{
+	color:#fff;
+	}
+#rcontent{
+	margin-top:50px;
+	box-shadow: 0 1px 10px #ccc;
+	border-radius:10px;
+	overflow:hidden;
+	padding:40px;
+	
+	}
+#rcontent .rankimg,.introduction{
+	float:left;
+	}
+#rcontent .introduction{
+	margin-left:10px;
+	}
+.rankimg img{
+	width:120px;
+	height:150px;
+	}
+
+.button{
+	padding-right:100px;
+	padding-top:20px;
+	}
+#video{
+	float:left;
+	overflow:hidden;
+	}
+#video .vcon{
+	box-shadow: 0px 1px 20px #ccc;
+	border-radius:10px;
+	padding:10px;
+	overflow:hidden;
+	}
+#innerbottom{
+	margin-top:50px;
+	overflow:hidden;
+	float:left;
+	}
+.vimg img{
+	width:120px;
+	height:110px;
+	float:left;
+	}
+.vimg img:hover{
+	opacity:0.4;
+filter:alpa(opacity=40);
+-moz-opacity:0.4;
+-khtml-opacity:0.4;
+	}
+.vimg{
+	font-family:"楷体_GB2312";
+	color:#5fa022;
+	font-size:24px;
+	margin-top:20px;
+	overflow:hidden;
+	}
+.vimg p{
+	float:left;
+	margin-left:10px;
+	padding-top:20px;
+	
+	}
+.vimg p:hover{
+	text-shadow:1px 1px 8px #5fa022;
+	}
+.vcon a{
+	text-decoration:none;
+}
+#suggestion{
+	margin-left:100px;
+	}
+#suggestion,.simg,.profile{
+	float:left;
+	overflow:hidden;
+	}
+.scon{
+	box-shadow: 0px 1px 20px #ccc;
+	border-radius:10px;
+	padding:10px;
+	}
+.simg img{
+	width:50px;
+	height:50px;
+	}
+.item{
+	margin:20px;
+	overflow:hidden;
+	}
+.item:hover{
+	opacity:0.6;
+filter:alpa(opacity=60);
+-moz-opacity:0.6;
+-khtml-opacity:0.6;
+	}
+.user{
+	font-size:9px;
+	}
+.scon a{
+	text-decoration:none;
+	color:#000;
+	}
+.linput{
+	
+	}
+.login{
+	width:160px;
+	height:30px;
+	}
+#lishow{
+	position:absolute;
+	display:none;
+	background:#5fa022;
+	border:1px solid #e2827e;
+	float:left;
+	overflow:hidden;
+	padding:10px;
+	z-index:1000;
+	}
+#lishow p{
+	float:left;}
+#licontent{
+	display:none;
+	}
+.rankinner a{
+	
+	text-decoration:none;
+	
+	}
+.rankinner p{
+	color:#5fa022;
+	}
+#lishow p{
+	color:#FFF;
+	}
+#search{
+	overflow:hidden;
+	position:fixed;
+	
+	right:0px;
+	top:100px;
+	z-index:999;
+	background:#fff;
+	}
+.searchshow{
+	color:#fff;
+	cursor:pointer;
+	border-radius:4px;
+	background:#5fa022;
+	padding:4px;
+	}
+#search .linput .hide{
+	color:#CCC;
+	cursor:pointer;
+	float:left;
+	
+	}
+#maquee{
+	width:980px;
+	height:500px;
+	background:url(../../../images/slide.jpg);
+	background-position:-200px 0px;
+	}

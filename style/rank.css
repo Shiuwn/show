@@ -1,0 +1,40 @@
+/* CSS Document */
+.rank-content{
+	overflow:hidden;
+	float:left;
+	}
+.rank-block{
+	overflow:hidden;
+	border:dashed 1px #5fa022;
+	margin:20px;
+	float:left;
+	}
+.rank-img{
+	overflow:hidden;
+	float:left;
+	}
+.rank-img img{
+	width:100px;
+	height:120px;
+	overflow:hidden;
+	}
+.rank-name{
+	color: #5fa022;
+	float:left;
+	overflow:hidden;
+	float:left;
+	font-size:20px;
+	padding:10px;
+	padding-top:40px;
+	}
+.grade{
+	padding:25px;
+	padding-top:45px;
+	overflow:hidden;
+	float:left;
+	}
+.grade-total{
+	width:180px;
+	heigth:2px;
+	border:1px solid #5fa022;
+	}

@@ -1,0 +1,29 @@
+/* CSS Document */
+.hotel-content{
+	padding:20px;
+	border:dashed 1px #5fa022;
+	overflow:hidden;
+	}
+.hotel-img img{
+	width:120px;
+	height:160px;
+	}
+	
+.hotel-img{
+	float:left;
+	}
+.hotel-description{
+	float:left;
+	}
+.hotel-description ul{
+	padding-left:20px;
+	}
+.hotel-description ul li{
+	padding:10px;
+	}
+.float{
+	float:left;
+	overflow:hidden;
+	margin-left:40px;
+	margin-top:40px;
+	}
